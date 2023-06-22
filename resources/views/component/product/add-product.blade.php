@@ -66,7 +66,7 @@
 
                         <div class="form-group col-md-4">
                             <label for="price">Giá bán</label>
-                            <input type="text" class="form-control" id="price" required = "Giá bán không được để trống" min="0" name="price" placeholder="Giá bán" value="{{ old('price') }}">
+                            <input type="number" class="form-control" id="price" required = "Giá bán không được để trống" min="0" name="price" placeholder="Giá bán" value="{{ old('price') }}">
                         </div>
                         <div class="form-group col-md-4">
                             <label for="brand">Thương hiệu</label>

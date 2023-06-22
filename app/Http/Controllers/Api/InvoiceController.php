@@ -53,7 +53,7 @@ class InvoiceController extends Controller
             
             $invoice_detail = InvoiceDetail::with(['product'])
             ->with(['color' => function($query) {
-                $query->select(['*', DB::raw('CONCAT("assets/img/products/",picture) AS picture')]);
+                $query->select(['*', DB::raw('CONCAT("assets/img/product_colors/",picture) AS picture')]);
             }])
             ->with(['size'])
             ->where('invoice_details.invoice_id', '=', $invoices->id)

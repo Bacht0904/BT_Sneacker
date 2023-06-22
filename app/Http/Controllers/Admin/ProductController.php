@@ -184,7 +184,7 @@ class ProductController extends Controller
 
         } catch (\Throwable $e) {
             DB::rollBack();
-            dd($e);
+            //dd($e);
             return redirect()->back()->withErrors('Thêm sản phẩm thất bại!');
         }
     }

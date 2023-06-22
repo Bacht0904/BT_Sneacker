@@ -103,7 +103,7 @@
                     <div class="sidebar-brand-icon rotate-n-15">
                         <img src="{{ asset('assets/img/logo-web.svg') }}" alt="" width="60">
                     </div>
-                    <div class="sidebar-brand-text mx-3">Graceful Admin </div>
+                    <div class="sidebar-brand-text mx-3">BT Sports Admin </div>
                 </a>
 
                 <!-- Divider -->
